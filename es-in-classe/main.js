@@ -21,13 +21,13 @@ let arrZucchine = [
 
 
 
-let sum = 0;
+let somma = 0;
 
 for (let i = 0; i < arrZucchine.length; i++) { //arrZucchine.length serve a garantire che il ciclo si ripeta esattamente per tutti gli elementi dell'array.
     const zucchina = arrZucchine[i];
 
-    sum = sum + zucchina.peso
+    somma = somma + zucchina.peso
     
 }
 
-console.log(sum);
+console.log(somma);
