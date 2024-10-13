@@ -25,3 +25,6 @@ let arrSquadre = [
 //console.log(arrSquadre);
 
 
+for (let i = 0; i < arrSquadre.length; i++) {
+    console.log(`Nome: ${arrSquadre[i].nome}, Punti fatti: ${arrSquadre[i]["punti fatti"]}, Falli subiti: ${arrSquadre[i]["falli subiti"]}`);
+}
