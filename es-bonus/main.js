@@ -5,11 +5,22 @@
 
  let arrNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-let a = 0.42;
+let a = 4.42;
 
-let b = 0.61;
+let b = 7.61;
 
 
-function estimateNum (a, b){
+function estimateNum(arrNumbers, a, b) {
 
+
+    for (let i = 0; i < arrNumbers.length; i++) {
+     
+        if (i >= a && i < b) { //controlla che ogni indice dell'array sia tra a e b
+
+            console.log(arrNumbers[i]); 
+        }
+    }
 }
+
+
+estimateNum(arrNumbers, a, b);
